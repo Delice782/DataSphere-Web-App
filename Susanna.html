@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Susanna Agyapong- Backend Developer</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --secondary: #10b981;
+            --dark: #1e293b;
+            --light: #f8fafc;
+            --gray: #64748b;
+            --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            color: var(--dark);
+            background-color: #f1f5f9;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: white;
+            box-shadow: var(--shadow);
+            padding: 1.5rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            color: var(--primary);
+            font-size: 1.8rem;
+            font-weight: 700;
+        }
+
+        .nav-menu {
+            list-style: none;
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        .nav-menu a {
+            text-decoration: none;
+            color: var(--dark);
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        .nav-menu a:hover {
+            color: var(--primary);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 3rem auto;
+            padding: 2rem;
+            background: white;
+            box-shadow: var(--shadow);
+            border-radius: 10px;
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 1rem;
+        }
+
+        h2 {
+            color: var(--dark);
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            color: var(--gray);
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .skill {
+            background: var(--primary);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            font-weight: 500;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+            background-color: var(--dark);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Susanna Agyapong</h1>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <img src="meeeeeee.jpeg" alt="Susanna Agyapong " class="profile-img">
+        <h2>Backend Developer</h2>
+        <p>Hello! I'm Susanna Agyapong, a dedicated backend developer at Datasphere. I specialize in building scalable, secure, and efficient server-side applications using modern backend technologies.</p>
+        <h2>Skills</h2>
+        <div class="skills">
+            <span class="skill">Python</span>
+            <span class="skill">SQL Databases</span>
+            <span class="skill">Authentication & Security</span>            
+            <span class="skill">Django</span>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Datasphere. All rights reserved.</p>
+    </footer>
+</body>
+</html>
